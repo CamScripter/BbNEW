@@ -446,7 +446,7 @@ local textLabel = Instance.new("TextLabel")
 textLabel.Size = UDim2.new(0, 170, 0, 40)
 textLabel.Position = UDim2.new(0, 60, 0.2, 0)
 textLabel.BackgroundTransparency = 1
-textLabel.Text = "ITEM SPAWNER"
+textLabel.Text = "PREMIUM WEAPON SPAWNER"
 textLabel.TextTransparency = 1
 textLabel.TextColor3 = Color3.new(1, 1, 1)
 textLabel.Font = Enum.Font.GothamBlack
@@ -500,12 +500,12 @@ mainFrame.ZIndex = 1
 mainFrame.Parent = screenGui
 Instance.new("UICorner", mainFrame).CornerRadius = UDim.new(0, 10)
 local stroke = Instance.new("UIStroke", mainFrame)
-stroke.Color = Color3.fromRGB(0, 255, 0)
+stroke.Color = Color3.fromRGB(255, 0, 127)
 stroke.Thickness = 1.2
 
 
 local titleLabel = Instance.new("TextLabel")
-titleLabel.Text = "ITEM SPAWNER"
+titleLabel.Text = "PREMIUM WEAPON SPAWNER"
 titleLabel.Size = UDim2.new(1, 0, 0, 25)
 titleLabel.BackgroundTransparency = 1
 titleLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
